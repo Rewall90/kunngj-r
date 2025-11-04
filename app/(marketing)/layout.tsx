@@ -1,3 +1,5 @@
+import { Header } from '@/components/layout/Header'
+
 export default function MarketingLayout({
   children,
 }: {
@@ -5,7 +7,7 @@ export default function MarketingLayout({
 }) {
   return (
     <div className="min-h-screen">
-      {/* Header will go here */}
+      <Header />
       <main>{children}</main>
       {/* Footer will go here */}
     </div>
