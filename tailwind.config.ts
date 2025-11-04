@@ -7,8 +7,17 @@ const config: Config = {
     './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        church: {
+          primary: 'var(--church-primary)',
+          secondary: 'var(--church-secondary)',
+        },
+      },
+    },
   },
-  plugins: [require('daisyui')],
+  plugins: [
+    require('daisyui')
+  ],
 }
 export default config

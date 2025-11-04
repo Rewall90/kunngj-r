@@ -1,0 +1,8 @@
+# Supabase Configuration
+# This file will be used when setting up local Supabase development
+
+[project]
+name = "kunngj-r"
+
+[auth]
+enabled = true
